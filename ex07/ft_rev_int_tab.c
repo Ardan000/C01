@@ -17,7 +17,7 @@ void ft_rev_int_tab(int *tab, int size)
     }
 }
 
-void print_my_tab(int* tab, int size)
+/*void print_my_tab(int* tab, int size)
 {
     int i = 0;
     while(i < size)
@@ -35,3 +35,4 @@ int main()
     ft_rev_int_tab(my_tab, 3);
     print_my_tab(my_tab, 3);
 }
+*/
