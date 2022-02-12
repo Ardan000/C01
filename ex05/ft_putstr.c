@@ -1,16 +1,16 @@
 #include <unistd.h>
 
-void ft_putstr(char* sttr)
+void ft_putstr(char* str)
 {
-    int itamere;
+    int i;
 
-    itamere = 0; 
+    i = 0; 
 
-    while(sttr[itamere] != 0)
+    while(str[i] != 0)
     {
-        itamere++;
+        i++;
     }
-   write(1 , sttr, itamere);
+   write(1 , str, i);
 }
 
 
